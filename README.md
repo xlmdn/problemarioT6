@@ -1,4 +1,4 @@
-Repositorio de Problemas y Programas de Métodos Numéricos
+## Repositorio de Problemas y Programas de Métodos Numéricos
 ¡Bienvenido al repositorio de Métodos Numéricos Tema 6 - Soluciones de Ecuaciones Diferenciales!
 
 Este repositorio está diseñado para proporcionarte acceso a una variedad de algoritmos, programas y pruebas de ejecución que abordan el fascinante tema de la solución de ecuaciones diferenciales.
@@ -14,3 +14,51 @@ Método de Euler: Uno de los métodos más simples para resolver ecuaciones dife
 En este repositorio, no solo encontrarás la teoría detrás de cada método de solución de ecuaciones diferenciales, sino también implementaciones prácticas en forma de programas y algoritmos. Además, se proporcionan pruebas de ejecución detalladas que te guiarán a través del proceso de aplicación de cada método, brindándote una comprensión profunda y práctica de su funcionamiento.
 
 ¡Explora el repositorio y sumérgete en el apasionante mundo de la solución de ecuaciones diferenciales!
+
+## Contenido del Repositorio
+
+## Método Euler
+
+- [Descripción](#descripción-Euler)
+- [Algoritmo](#algoritmo-Euler)
+- [Ejemplos](#ejemplos-Euler)
+- [Implementación](#implementacion-Euler)
+
+
+## Método Cuadratico
+
+- [Descripción](#descripción-gauss-seidel)
+- [Algoritmo](#algoritmo-gauss-seidel)
+- [Ejemplos](#ejemplos-gauss-seidel)
+- [Implementación](#implementación-gauss-seidel)
+
+## Método Euler
+### Descripción Euler
+El método de Euler es un método de primer orden, lo que significa que el error local es proporcional al cuadrado del tamaño del paso, y el error global es proporcional al tamaño del paso. El método de Euler regularmente sirve como base para construir métodos más complejos.
+
+![image](https://github.com/xlmdn/Problemario5/assets/147437527/807dde53-8de0-4521-9207-66509abbbde1)
+
+### Algoritmo Euler
+
+
+
+### Implementación Euler
+
+
+### Ejemplo Euler
+
+
+## Método Taylor
+### Descripción Taylor
+El método de Euler es un método de primer orden, lo que significa que el error local es proporcional al cuadrado del tamaño del paso, y el error global es proporcional al tamaño del paso. El método de Euler regularmente sirve como base para construir métodos más complejos.
+
+![image](https://github.com/xlmdn/Problemario5/assets/147437527/807dde53-8de0-4521-9207-66509abbbde1)
+
+### Algoritmo Taylor
+
+
+
+### Implementación Taylor
+
+
+### Ejemplo Taylor
