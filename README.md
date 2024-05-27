@@ -40,12 +40,57 @@ El método de Euler es un método de primer orden, lo que significa que el error
 
 ### Algoritmo Euler
 
-
+![image](https://github.com/xlmdn/problemario-T3/assets/147437527/82614b5a-27fc-4dcf-8f77-d747ae3542a2)
 
 ### Implementación Euler
 
+        public class MetodoEuler {
+
+    // Definición de la función f(x, y)
+    public static double f(double x, double y) {
+        return x + y;
+    }
+
+    // Método de Euler
+    public static void euler(double x0, double y0, double h, int n) {
+        double x = x0;
+        double y = y0;
+
+        System.out.printf("x0 = %.4f, y0 = %.4f%n", x, y);
+
+        // Iteración del método de Euler
+        for (int i = 1; i <= n; i++) {
+            y = y + h * f(x, y);
+            x = x + h;
+            System.out.printf("x%d = %.4f, y%d = %.4f%n", i, x, i, y);
+        }
+    }
+
+    public static void main(String[] args) {
+        // Valores iniciales
+        double x0 = 0.0;  // x inicial
+        double y0 = 1.0;  // y inicial
+        double h = 0.1;   // Tamaño del paso
+        int n = 10;       // Número de pasos
+
+        // Imprimir la ecuación diferencial
+        System.out.println("Resolvemos la ecuación diferencial dy/dx = x + y usando el método de Euler.");
+
+        // Ejecutar el método de Euler
+        euler(x0, y0, h, n);
+    }
+}
+
 
 ### Ejemplo Euler
+
+## Ejemplo 1
+
+![image](https://github.com/xlmdn/problemario-T3/assets/147437527/003db495-df23-43f8-9579-e977f957f111)
+
+## Ejemplo 2
+
+![image](https://github.com/xlmdn/problemario-T3/assets/147437527/3e566179-49a9-40aa-8a36-1b63f75da4a0)
 
 
 ## Método Taylor

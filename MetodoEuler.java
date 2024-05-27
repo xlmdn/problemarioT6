@@ -27,6 +27,9 @@ public class MetodoEuler {
         double h = 0.1;   // Tamaño del paso
         int n = 10;       // Número de pasos
 
+        // Imprimir la ecuación diferencial
+        System.out.println("Resolvemos la ecuación diferencial dy/dx = x + y usando el método de Euler.");
+
         // Ejecutar el método de Euler
         euler(x0, y0, h, n);
     }
