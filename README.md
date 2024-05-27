@@ -95,15 +95,68 @@ El método de Euler es un método de primer orden, lo que significa que el error
 
 ## Método Taylor
 ### Descripción Taylor
-El método de Euler es un método de primer orden, lo que significa que el error local es proporcional al cuadrado del tamaño del paso, y el error global es proporcional al tamaño del paso. El método de Euler regularmente sirve como base para construir métodos más complejos.
+El método de Taylor para resolver ecuaciones diferenciales es una técnica numérica que utiliza la serie de Taylor para aproximar la solución de una ecuación diferencial ordinaria (EDO). Este método es una generalización del método de Euler y es más preciso porque incluye términos adicionales de la serie de Taylor.
 
-![image](https://github.com/xlmdn/Problemario5/assets/147437527/807dde53-8de0-4521-9207-66509abbbde1)
+
+
+![image](https://github.com/xlmdn/problemario-T3/assets/147437527/cbc804db-93e2-4745-b277-2340825edc2a)
 
 ### Algoritmo Taylor
 
+![image](https://github.com/xlmdn/problemario-T3/assets/147437527/23e1509a-e141-4d32-bb06-90405a266cb0)
 
 
 ### Implementación Taylor
 
+public class MetodoTaylor {
+
+    // Definición de la función f(x, y) para la EDO dy/dx = y - x^2 + 1
+    public static double f(double x, double y) {
+        return y - x * x + 1;
+    }
+
+    // Segunda derivada de y respecto a x para la EDO dy/dx = y - x^2 + 1
+    public static double f2(double x, double y) {
+        // f'(x, y) = (y - x^2 + 1) - 2x
+        return f(x, y) - 2 * x;
+    }
+
+    // Método de Taylor de segundo orden
+    public static void taylor(double x0, double y0, double h, int n) {
+        double x = x0;
+        double y = y0;
+
+        System.out.println("Resolvemos la ecuación diferencial dy/dx = y - x^2 + 1 usando el método de Taylor de segundo orden.");
+        System.out.printf("x0 = %.4f, y0 = %.4f%n", x, y);
+
+        // Iteración del método de Taylor
+        for (int i = 1; i <= n; i++) {
+            y = y + h * f(x, y) + (h * h / 2) * f2(x, y);
+            x = x + h;
+            System.out.printf("x%d = %.4f, y%d = %.4f%n", i, x, i, y);
+        }
+    }
+
+    public static void main(String[] args) {
+        // Valores iniciales
+        double x0 = 0.0;  // x inicial
+        double y0 = 0.5;  // y inicial
+        double h = 0.1;   // Tamaño del paso
+        int n = 10;       // Número de pasos
+
+        // Ejecutar el método de Taylor
+        taylor(x0, y0, h, n);
+    }
+}
+
 
 ### Ejemplo Taylor
+
+## Ejemplo 1
+
+![image](https://github.com/xlmdn/problemario-T3/assets/147437527/9f2e776b-a547-4a2a-bc90-e4530298553d)
+
+## Ejemplo 2
+
+![image](https://github.com/xlmdn/problemario-T3/assets/147437527/59709e00-884e-48eb-8c01-9d8eead15475)
+
