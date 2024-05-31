@@ -9,33 +9,34 @@ Este repositorio está organizado por temas, cada uno correspondiente a un perio
 ## Tema 2: Métodos de solución de ecuaciones
 
 - [Método de Bisección](Tema2/biseccion.java)
-- [Método de Newton-Raphson](Tema2/Newton-Raphson)
-- [Método de la Regla Falsa](Tema2/Regla-Falsa)
-- [Método de la Secante](Tema2/Secante)
+- [Método de Newton-Raphson](Tema2/newton.java)
+- [Método de la Regla Falsa](Tema2/regla_falsa.java)
+- [Método de la Secante](Tema2/secante.java)
 
 ## Tema 3: Métodos de solución de sistemas de ecuaciones
 
-- Método de Gauss-Jordan
-- Método de Eliminación Gaussiana
-- Método de Jacobi
-- Método de Gauss-Seidel
+- [Método de Gauss-Jordan](Tema3/gauss_jordan.java)
+- [Método de Eliminación Gaussiana](Tema3/eliminacion_gauss.java)
+- [Método de Jacobi](Tema3/jacobi.java)
+- [Método de Gauss-Seidel](Tema3/gauss_seidel.java)
 
 ## Tema 4: Diferenciación e Integración numérica
 
-- Regla del Trapecio
-- Método de Simpson 1/3
-- Método de Simpson 3/8
+- [Regla del Trapecio](Tema4/trapecio.java)
+- [Método de Simpson 1/3](Tema4/simpson1.java)
+- [Método de Simpson 3/8](Tema4/simpson3.java)
 
 ## Tema 5: Interpolación y ajuste de funciones
 
-- Interpolación Lineal
-- Interpolación Cuadrática
+- [Interpolación Lineal](Tema5/lineal.javaneal)
+- [Interpolación Cuadrática](Tema5/cuadratico.java)
 
 ## Tema 6: Solución de ecuaciones diferenciales
 
-- Método de Euler
-- Método de Heun
-- Método de Runge-Kutta de 4to Orden
+- [Método de Euler](Tema6/MetodoEuler.java)
+- [Método de Taylor](Tema6/MetodoTaylor.java)
+- [Método de Runge-Kutta](Tema6/MetodoRungeKutta.java)
+
 
 ---
 
