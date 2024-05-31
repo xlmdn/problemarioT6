@@ -1,3 +1,4 @@
+package Tema6;
 public class MetodoRungeKutta {
 
     // Definición de la función f(x, y) para la EDO dy/dx = 3x^2 + y

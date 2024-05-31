@@ -1,3 +1,4 @@
+package Tema6;
 public class MetodoEuler {
 
     // Definición de la función f(x, y)

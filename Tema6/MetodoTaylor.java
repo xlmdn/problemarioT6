@@ -1,3 +1,4 @@
+package Tema6;
 public class MetodoTaylor {
 
     // Definición de la función f(x, y) para la EDO dy/dx = y - x^2 + 1
