@@ -33,9 +33,7 @@ Este repositorio está organizado por temas, cada uno correspondiente a un perio
 
 ## Tema 6: Solución de ecuaciones diferenciales
 
-- [Método de Euler](Tema6/MetodoEuler.java)
-- [Método de Taylor](Tema6/MetodoTaylor.java)
-- [Método de Runge-Kutta](Tema6/MetodoRungeKutta.java)
+- [Métodos tema 6](Tema6/)
 
 
 ---
